@@ -40,8 +40,6 @@ def makeArray (A, D):
 
     gridCol[0][0]= ""
     gridShape[0][0] = ""
-    print(gridShape)
-    print(gridCol)
     return gridCol, gridShape
 
 def randomShape():
