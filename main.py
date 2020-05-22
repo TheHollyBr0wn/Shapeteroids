@@ -158,12 +158,12 @@ while running == True:
             message_display('Instructions',350, 100, 30)
             message_display('Aim to get rid of all the shapes', 350, 150, 20)
             message_display('Must be the same colour or shape as the Key Shape', 350, 200, 20)
-            message_display('Remember where the monster is! ', 350, 250, 20)
-            message_display('Finish before the bonus and you will get extra points', 350, 300, 20)
+            message_display('Finish before the bonus and you will get extra points', 350, 250, 20)
             message_display('Click anywhere to continue', 350, 400, 15)
             pygame.display.update()
         for event in pygame.event.get():
             if pygame.mouse.get_pressed()[0] == True:
+                timer = int(time.time())
                 tim = int(time.time())
                 gameState = gameState + 1
 
