@@ -220,7 +220,7 @@ while running == True:
 
                 gridCol[playerY][playerX] = ""
                 gridShape[playerY][playerX] = ""
-                print(counter)
+             
                 if Lives == 0 or counter == 41:
                     gameState = 3
             if newMove:
